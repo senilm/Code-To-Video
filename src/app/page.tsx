@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {Card} from "@/components/ui/card";
 import { reviews,links,footerLink } from "@/utils/data";
 
 export default function Home() {
-  
   return (
     <div className="flex flex-col min-h-[100dvh]">
 
@@ -59,7 +57,7 @@ export default function Home() {
               </p>
             </div>
             <form className="flex flex-col gap-2 max-w-sm mx-auto">
-              <Link href={'/login'}>
+              <Link href={'/home'}>
               <Button className="mx-auto w-full mb-5" type="submit">
                 Get Started
               </Button>

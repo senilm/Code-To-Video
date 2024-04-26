@@ -16,3 +16,7 @@ export const reviews = [
 export const links = [{name:"Features",url:"#"},{name:"Pricing",url:"#"},{name:"About",url:"#"},{name:"Contact",url:"#"}]
 
 export const footerLink = [{name:"Terms of Service",url:"#"},{name:"Privacy",url:"#"}]
+
+export const themes = [{name:"Space Theme", value:"space"},{name:"Sketch", value:"sketch"},{name:"Futuristic", value:"future"},{name:"Old theme", value:"old"}]
+export const purposes = [{name:"Explanation", value:"exp"},{name:"Finding errors", value:"err"},{name:"Interview level review", value:"int"}]
+export const languages = [{name:"C++", value:"cpp"},{name:"Javascript", value:"js"},{name:"c", value:"c"},{name:"Python", value:"py"},{name:"Java",value:"java"}]
